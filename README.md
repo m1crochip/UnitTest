@@ -70,5 +70,6 @@ module.exports = {
 ```
 
 #### Step 3
-Create a folder named tests at the same level as package.json and place your test files under this folder. Test files should follow the naming convention {file_name}.test.ts . Execute the tests by running the following command:
+Create a folder named tests at the same level as package.json and place your test files under this folder. Test files should follow the naming convention {file_name}.test.ts . 
+Execute the tests by running the following command:
 >npm t
