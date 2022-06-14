@@ -1,4 +1,53 @@
-## Set Jest Framework
+## Setup dependency
+### The empty list
+```
+merge([], [])
+```
+### The positive number
+
+An already sorted list
+```
+merge([1, 2, 3], [4, 5, 6])
+```
+A reverse sorted list
+```
+merge([3, 2, 1], [6, 5, 4])
+```
+A list consisting of the same element throughout
+```
+merge([1, 1, 1], [1, 1, 1])
+```
+A list containing dupes
+```
+merge([1, 2, 3], [1, 2, 3])
+```
+### The negative number
+An already sorted list
+```
+merge([-1, -2, -3], [-4, -5, -6])
+```
+A reverse sorted list
+```
+merge([-3, -2, -1], [-6, -5, -4])
+```
+A list consisting of the same element throughout
+```
+merge([-1, -1, -1], [-1, -1, -1])
+```
+A list containing dupes
+```
+merge([-1, -2, -3], [-1, -2, -3])
+```
+### The Mix number
+```
+merge([-1, 2, 0, 3, -8], [-3, -4, 1, 2])
+```
+### The Character
+```
+merge(["a", "b", "c"], ["d", "e", "f"])
+```
+
+## Set up execute code and unit test with Jest Framework
 
 #### Prerequisite
 Install jest and typescript into your project by running the following command: 
